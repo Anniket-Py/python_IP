@@ -1,2 +1,2 @@
 # python_IP
-My first python project ( basic one Uhhh )
+Python Projects ( basic one Uhhh )
