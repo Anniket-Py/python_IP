@@ -19,8 +19,8 @@ def connect_to_database():
     try:
         db_connection = mysql.connector.connect(
             host='localhost',
-            user='annik',
-            password='1234',
+            user='username',
+            password='pass',
             database='Bank_mgt'
         )
         return db_connection
@@ -294,7 +294,7 @@ def employee_menu(mycursor, mydb):
 
 # Main function
 def main():
-    csv_file_path = r'C:\Users\annik\Desktop\New folder\login excel.csv'
+    csv_file_path = r'C:\Users\Dekstop\Login.csv' # Replace csv file
     credentials_list = read_credentials_from_csv(csv_file_path)
 
     if credentials_list is not None:
